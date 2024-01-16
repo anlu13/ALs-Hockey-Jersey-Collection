@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+  }
+  
+  .grid-container {
+	/* specify as a grid */
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* 4 columns */
+	/* gap between pics */
+	gap: 20px;
+	
+	padding: 20px;
+  }
+  
+  .grid-item {
+	/* scales up, down relative to screen */
+	position: relative;
+  }
+  
+  .grid-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Maintain aspect ratio for images */
+  }
+  
+  .grid-item p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+	margin: 0;
+	text-align: center;
+  }
+  
