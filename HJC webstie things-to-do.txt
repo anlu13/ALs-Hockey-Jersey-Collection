@@ -1,0 +1,9 @@
+Main Page:
+- shrinks to single column
+- individual jersey clickable links
+
+Tab Pages
+- 
+
+Jersey Pages
+- 
